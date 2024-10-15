@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{e8904aca-2ea0-5e93-3858-0b3926f129d7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRRuntime", "CFXRRuntime.csproj", "{3d776068-dfc9-bae7-e0bb-7050c18cc090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXREditor", "CFXREditor.csproj", "{bdefb664-5aa9-37f9-9e5c-24206fb32a1a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{fa15351c-8c97-6236-7eaf-508ad8ccb651}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{e8904aca-2ea0-5e93-3858-0b3926f129d7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e8904aca-2ea0-5e93-3858-0b3926f129d7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3d776068-dfc9-bae7-e0bb-7050c18cc090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3d776068-dfc9-bae7-e0bb-7050c18cc090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{bdefb664-5aa9-37f9-9e5c-24206fb32a1a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bdefb664-5aa9-37f9-9e5c-24206fb32a1a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{fa15351c-8c97-6236-7eaf-508ad8ccb651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{fa15351c-8c97-6236-7eaf-508ad8ccb651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

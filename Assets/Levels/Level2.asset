@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63bafbfdf6ab9f54d97d6311fba694e7, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: 
+  gridSize: {x: 10, y: 10}
+  snakeLocation: {x: 0, y: 4}
+  snakeSize: 5
+  snakeDirection: 0
+  goals:
+  - amountToReach: 5
+    goalItem: {fileID: 8251501042574269361, guid: f74f25c527296e84b945fc3a938f15db, type: 3}
+    maxAmountOnScreen: 1
+  - amountToReach: 5
+    goalItem: {fileID: 8251501042574269361, guid: bc7ba209a7ad6b94bbb2856cea3846da, type: 3}
+    maxAmountOnScreen: 2
+  ambientParticlePrefabs:
+  - {fileID: 3696007233179127096, guid: c248f95ffea8b8543bc7ad0fffe0216d, type: 3}
+  - {fileID: 4364354964670000192, guid: 3801a320e9ae1bf44a14efa194c86c3f, type: 3}
+  modelPattern: []
+  nextLevel: {fileID: 11400000, guid: 21c0cf3d76102b44ab804b72118b4098, type: 2}
+  interactableObjects:
+  - position: {x: 4, y: 9}
+    interactableObject: {fileID: 9053823332861555879, guid: 52ec5b1ad19c2e6489bcc62a48490fa5, type: 3}
+  - position: {x: 4, y: 8}
+    interactableObject: {fileID: 9053823332861555879, guid: 52ec5b1ad19c2e6489bcc62a48490fa5, type: 3}
+  - position: {x: 4, y: 0}
+    interactableObject: {fileID: 9053823332861555879, guid: 52ec5b1ad19c2e6489bcc62a48490fa5, type: 3}
+  - position: {x: 4, y: 1}
+    interactableObject: {fileID: 9053823332861555879, guid: 52ec5b1ad19c2e6489bcc62a48490fa5, type: 3}

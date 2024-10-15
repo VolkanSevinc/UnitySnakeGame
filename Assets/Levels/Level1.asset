@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63bafbfdf6ab9f54d97d6311fba694e7, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  gridSize: {x: 8, y: 8}
+  snakeLocation: {x: 3, y: 5}
+  snakeSize: 4
+  snakeDirection: 0
+  goals:
+  - amountToReach: 8
+    goalItem: {fileID: 8251501042574269361, guid: f74f25c527296e84b945fc3a938f15db, type: 3}
+    maxAmountOnScreen: 3
+  ambientParticlePrefabs:
+  - {fileID: 6077168872989578693, guid: f514474ff8e94554d8477de1f2f601b0, type: 3}
+  - {fileID: 1172081452124834319, guid: ac009bb7498fcfb4b96614c4fd1f735c, type: 3}
+  modelPattern:
+  - {fileID: 919132149155446097, guid: 1de2f7c38ff6e4da997629700aba5201, type: 3}
+  - {fileID: 919132149155446097, guid: fcc1da9935b7e452c866376403fcc250, type: 3}
+  nextLevel: {fileID: 11400000, guid: 6b2b374f7f3c90147985ac739b025cc0, type: 2}
+  interactableObjects: []
